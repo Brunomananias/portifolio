@@ -1,0 +1,23 @@
+.typing-container {
+    display: flex;
+    align-items: center; /* Alinha a barra de digitação com o texto */
+  }
+  
+  .typing-indicator {
+    animation: blink 1s infinite; /* Faz a barra piscar */
+    font-size: 2rem; /* Tamanho da barra */
+    margin-left: 5px; /* Espaço entre o texto e a barra */
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

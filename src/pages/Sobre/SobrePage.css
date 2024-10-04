@@ -1,0 +1,38 @@
+.textosobre {
+    background-color: rgba(238, 238, 238, 0.603); /* Cor branca com 80% de opacidade */
+    padding: 20px; /* Adiciona um espaçamento interno */
+    border-radius: 10px; /* Borda arredondada, opcional */
+    color: #000; /* Cor do texto */
+  }
+
+  .container-sobre {
+    background-color: rgba(255, 255, 255, 0.637); /* Cor branca com 80% de opacidade */
+    padding: 20px; /* Adiciona um espaçamento interno */
+    border-radius: 10px; /* Borda arredondada, opcional */
+    color: #000000; /* Cor do texto */
+    margin-top: 200px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+  }
+
+  .imagem {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+  }
+  
+  .imagem img {
+    width: 100px; /* Ajuste para o tamanho desejado */
+    height: auto; /* Mantém a proporção */
+    border-radius: 50%; /* Se quiser que a imagem seja redonda */
+    display: block; /* Remove espaço em branco abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+  }
+
+
+
+  
+  

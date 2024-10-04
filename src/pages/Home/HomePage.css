@@ -1,0 +1,42 @@
+.container {
+    display: flex; 
+    align-items: left; 
+  }
+  
+  .texto-apresentacao {
+    text-align: center;
+    color: white;
+    margin-left: -190px; 
+    margin-top: 350px;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .imagem-perfil {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: 150px;
+    object-fit: cover; 
+    transition: transform 0.3s ease; /* Transição suave */
+  }
+
+  .imagem-perfil img {
+    width: 200px; /* Faz a imagem ocupar 100% da largura do contêiner */
+    height: 200px; /* Mantém a proporção da imagem */
+}
+  
+  .imagem-perfil:hover {
+    transform: scale(1.05); /* Aumenta a imagem levemente ao passar o mouse */
+  }
+
+  .icone {
+    font-size: 2rem; /* Ajuste o tamanho aqui */
+    margin: 0 10px; /* Espaçamento entre os ícones */
+    color: white; /* Cor dos ícones */
+    transition: color 0.3s; /* Transição de cor */
+  }
+  
+  .icone:hover {
+    color: #0077b5; /* Cor ao passar o mouse (para LinkedIn) */
+  }
